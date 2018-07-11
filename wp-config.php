@@ -1,3 +1,4 @@
+<?php
 
 # ----- Get the real IP at apache from nginx reverse proxy
 if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
@@ -11,6 +12,9 @@ if ($_SERVER['HTTP_X_FORWARDED_PROTO'] ==='https') {
     $_SERVER['HTTPS'] = 'on';
 }
 
+# -----------------------
+# Base configuration code
+# -----------------------
 
 # ----- Disable Wordpress autoupdate
 define('WP_AUTO_UPDATE_CORE', false);
