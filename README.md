@@ -1,2 +1,2 @@
 # custom-wpconfig
-Custom wp-config
+Custom configuration for wp-config.php
